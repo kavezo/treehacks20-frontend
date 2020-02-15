@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
+  fabOpen: boolean;
 
   constructor() {}
+
+  open(){
+    this.fabOpen = !this.fabOpen;
+  }
 
 }
