@@ -14,7 +14,10 @@ interface User {
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-  user:User = {}
+  user:User = {
+    email: 'diane@email.com',
+    password: 'diane1'
+  }
   activeUser: {}
   activeSection = ""
   constructor(

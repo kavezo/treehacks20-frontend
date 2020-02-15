@@ -46,8 +46,8 @@
 
     <ion-row>
       <ion-col>
-        <ion-button type="submit" color="danger" expand="block">Sign In</ion-button>
-        <a [routerLink]="['/forgot-password']" class="small-text">Forgot Password?</a>
+        <ion-button type="submit" (click)="login()" color="danger" expand="block">Sign In</ion-button>
+        <a class="small-text">Forgot Password?</a>
       </ion-col>
     </ion-row>
   </form>
@@ -73,7 +73,7 @@
 
     <ion-row>
       <ion-col>
-        <ion-button type="submit" color="danger" expand="block">Sign Up</ion-button>
+        <ion-button type="submit" (click)="createAccount()" color="danger" expand="block">Sign Up</ion-button>
       </ion-col>
     </ion-row>
   </form>
