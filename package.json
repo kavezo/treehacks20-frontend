@@ -29,12 +29,9 @@
     "cordova-android": "^8.1.0",
     "chart.js": "^2.9.3",
     "core-js": "^2.5.4",
-<<<<<<< HEAD
     "ion2-calendar": "^2.2.0",
     "moment": "^2.24.0",
-=======
     "firebase": "^7.8.2",
->>>>>>> 8471b34d752e08d31764a95a6ded82212d86f905
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
     "zone.js": "~0.9.1"
